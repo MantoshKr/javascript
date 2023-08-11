@@ -15,6 +15,6 @@ const expensive = () => {
       }, limit)
     }
   }
-  const func = throttle(expensive, 300)
+  const func = throttle(expensive, 2000)
   window.addEventListener('resize', func)
   
